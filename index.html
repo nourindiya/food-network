@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Book Pro</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <main class="divide-y-4">
+        <div class="flex flex-row gap-12 justify-center pt-20">
+            <div>
+                <img src="images/mac.png " alt="" srcset="">
+            </div>
+            <div>
+                <h1 class="text-6xl">Coustomize your Blue 24-inch<br>
+                    imac with Apple M1 chip.
+                </h1>
+                <p class="mt-4">Apple M1 chip with 8-core CPU with 4 perfomance cores and 4 efficiency <br>
+                    cores.7-core GPU,and 16-core Neural Engine 8GB unified memory 256GB <br>
+                    SSD storage Two thunderbolt/USB 4 ports Magic Mouse Magic keyboard<br>
+                    -US English</p>
+                <div>
+                    <h1 class="text-2xl font-semibold mt-20">Memory</h1>
+
+                    <!-- Extra Memory Button -->
+                    <!-- 8GB Button -->
+                    <button id="8gb-btn" class="border-2 border-gray-300 rounded-md p-2 mt-2" type="submit">8GB unified
+                        memory</button>
+
+                    <!-- 16GB Button -->
+                    <button id="16gb-btn" class="border-2 border-gray-300 rounded-md p-2" type="submit">16 GB unified
+                        memory</button>
+                </div>
+                <div>
+                    <h1 class="text-2xl font-semibold mt-20">Storage</h1>
+
+                    <!-- Extra Memory Button -->
+                    <!-- 256 GB SSD -->
+                    <button id="256-GB-SSD" class="border-2 border-gray-300 rounded-md p-2 mt-2" type="submit">256 GB
+                        SSD storage</button>
+
+                    <!-- 512 GB SSD -->
+                    <button id="512-GB-SSD" class="border-2 border-gray-300 rounded-md p-2" type="submit">512GB SSD
+                        storage</button>
+
+                    <!-- 1TB SSD -->
+                    <button id="1TB-SSD" class="border-2 border-gray-300 rounded-md p-2" type="submit">1TB SSD
+                        storage</button>
+                </div>
+                <div>
+                    <h1 class="text-2xl font-semibold mt-20">Chose your delivery option</h1>
+
+                    <!-- Delivery Option Button -->
+                    <!-- Late Delivery Button -->
+                    <button id="late-delivery-btn" class="border-2 border-gray-300 rounded-md p-2 mt-2"
+                        type="submit">Fiday,Aug 25 FREE Prime
+                        Delivery</button>
+
+                    <!-- Fast Delivery Button -->
+                    <button id="fast-delivery-btn" class=" border-2 border-gray-300 rounded-md p-2"
+                        type="submit">Friday,Aug 21 Delivery charge
+                        $20</button>
+                </div>
+                <div class="flex flex-row mt-12 gap-10">
+                    <div class="divide-y">
+                        <h2 class=" text-xl font-bold">Best Price</h2>
+                        <h2 class=" text-xl font-bold">Extra Memory Cost </h2>
+                        <h2 class=" text-xl font-bold">Extra Storage Cost</h2>
+                        <h2 class=" text-xl font-bold">Delivery Charge</h2>
+                        <span class=""></span>
+                        <h2 class="text-xl font-bold">Total Price</h2>
+                    </div>
+                    <div class="divide-y">
+                        <!-- main price> -->
+                        <h2 class=" text-xl font-bold">$ <span id="Best-price"> 1299</span></h2>
+                        <!-- Extra Memory Cost -->
+                        <h2 class=" text-xl font-bold">$<span id="memory-cost">0</span></h2>
+                        <!-- Extra Storage Cost -->
+                        <h2 class=" text-xl font-bold">$<span id="storage-cost">0</span></h2>
+                        <!-- Delivery Cost -->
+                        <h2 class=" text-xl font-bold">$<span id="delivery-cost">0</span></h2>
+                        <!-- TOTAL COST -->
+                        <h2 class=" text-xl font-bold">$ <span id="total-cost"> 1299</span></h2>
+                    </div>
+                </div>
+                <div class="mt-10">
+                    <!-- Promo code and discount -->
+                    <h2 class=" font-medium ">Add promo code</h2>
+                    <input id="promo-code" class=" border-2 border-gray-300 rounded-md p-2 mt-2 w-80" type="text">
+                    <button id="promo-btn"
+                        class="border-2 border-gray-300 rounded-md p-2 bg-red-600 text-white w-24 mb-4 "
+                        type="submit">Apply</button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <!-- Final Price -->
+            <h1 class="text-4xl text-center pt-5">Total :$ <span id="final-price"> 1299</span><br>
+
+            </h1>
+        </div>
+    </main>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
